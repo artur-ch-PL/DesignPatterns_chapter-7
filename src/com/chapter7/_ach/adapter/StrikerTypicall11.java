@@ -9,12 +9,12 @@ public class StrikerTypicall11 implements IStriker{
 	
 	@Override
 	public void shot() {
-		System.out.println("Strong shot from the box by " + name);
+		System.out.println("Instead of pass, strong shot from out of the box by " + name);
 	}
 
 	@Override
 	public void reception() {
-		System.out.println("Qucik receipt and shot by " + name);
+		System.out.println("Qucik receipt and power shot by " + name);
 	}
 
 	@Override

@@ -1,10 +1,10 @@
 package com.chapter7._ach.adapter;
 
-public class MidfielderAdapter implements IStriker {
+public class MidfielderToStrikerAdapter implements IStriker {
 	IMidfielder middleFender;
 	String name;
 	
-	public MidfielderAdapter(IMidfielder mf) {
+	public MidfielderToStrikerAdapter(IMidfielder mf) {
 		this.middleFender = mf;
 		name = mf.getName();
 	}

@@ -9,7 +9,7 @@ public class AttackingMidfielder implements IMidfielder {
 	
 	@Override
 	public void pass() {
-		System.out.println("Perform quick one-touch passes");
+		System.out.println("Perform quick one-touch pass");
 	}
 
 	@Override
